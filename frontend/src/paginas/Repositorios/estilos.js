@@ -4,7 +4,6 @@ const estilos = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#fff',
-        alignItems: 'center',
         justifyContent: 'center',
     },
     repositoriosTexto: {
@@ -12,6 +11,7 @@ const estilos = StyleSheet.create({
         fontWeight: '600',
         color: '#45565F',
         marginTop: 20,
+        textAlign: 'center'
     },
     titulo: {
         fontSize: 20,
@@ -52,6 +52,10 @@ const estilos = StyleSheet.create({
         fontSize: 16,
         color: '#FFF',
     },
+    flatList: {
+        flex: 1,
+        width: '100%'
+    }
 });
 
 
